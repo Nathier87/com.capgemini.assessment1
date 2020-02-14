@@ -45,5 +45,15 @@ public class Author {
     public void setGender(String gender) {
         this.gender = gender;
     }
+
+    @Override
+    public String toString() {
+        return "Author{" +
+                "name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", age=" + age +
+                ", gender='" + gender + '\'' +
+                '}';
+    }
 }
 

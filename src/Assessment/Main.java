@@ -11,6 +11,14 @@ public class Main {
            Book koen1=new Book("Thoughts on Dotnet",4.99, 1,author,2020);
         System.out.println("Author:"+author+ "\n Author1:"+author1);
         System.out.println("book:"+book+"\n Book:"+book1);
+        System.out.println("Koen:"+koen+"\n Koen1:"+koen1);
+
+        Library library=new Library();
+        library.add(author);
+        library.add(author1);
+        library.add(book);
+        library.add(book1);
+
 
     }
 }
